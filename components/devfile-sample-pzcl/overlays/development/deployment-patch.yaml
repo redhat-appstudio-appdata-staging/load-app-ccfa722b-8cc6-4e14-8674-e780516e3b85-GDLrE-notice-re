@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-pzcl
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/test-rhtap-77-tenant/load-app-ccfa722b-8cc6-4e14-8674-e780516e3b85/devfile-sample-pzcl@sha256:33fda06b10d969ae3c9d2b2e9549ad4e71a826aa5681184a6b2ee10bb6f0fd8e
+        name: my-nodejs
+        resources: {}
+status: {}
