@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-pzcl
     app.kubernetes.io/part-of: load-app-ccfa722b-8cc6-4e14-8674-e780516e3b85
-  name: devfile-sample-pzclzpes
+  name: devfile-sample-pzclotlj
 spec:
   path: /
   port:
